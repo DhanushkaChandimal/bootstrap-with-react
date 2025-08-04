@@ -1,4 +1,4 @@
-import { Container, Carousel, Row, Col } from 'react-bootstrap';
+import { Container, Carousel, Row, Col } from 'react-bootstrap'; //Not recomended large bundle size
 
 function HomePage() {
 
