@@ -8,6 +8,7 @@ import Alert from 'react-bootstrap/Alert';
 import InputGroup from 'react-bootstrap/InputGroup';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import FormModal from './FormModal';
+import OffCanvas from './OffCanvas';
 import axios from 'axios';
 
 const UserForm = () => {
@@ -180,6 +181,7 @@ const UserForm = () => {
                     Submit
                 </Button>
             </Form>
+            <OffCanvas />
         </Container>
     );
 };
